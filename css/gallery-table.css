@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box-shadow {
+    -webkit-box-shadow: -1px 7px 23px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 7px 23px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 7px 23px -10px rgba(0, 0, 0, 0.75);
+}
+
+.main-container-grid {
+    display: grid;
+    grid-template-rows: 1fr 13fr 1fr;
+    height: 100%;
+    grid-row-gap: 1em;
+}
+
+.r1,
+.r3 {
+    display: grid;
+    background-color: #CCC;
+    padding: 1em;
+    align-items: center;
+}
+
+.r3 {
+    text-align: center;
+}
+
+.r2 {
+    height: 100%;
+}
+
+.three-column {
+    display: grid;
+    grid-template-columns: 2fr 8fr 3fr;
+    background-color: #FFF;
+    grid-column-gap: 1em;
+}
+
+.c1 {
+    min-width: 200px;
+}
+
+.c1,
+.c3 {
+    background-color: rgba(182, 180, 180);
+}
+
+.txt-center {
+    text-align: center;
+    margin: 15px auto 0px;
+    border-bottom: 1px solid #a8a7a7;
+    padding-bottom: 15px;
+}
+
+.left-nav {
+    list-style-type: none;
+}
+
+.left-nav>li>a {
+    display: block;
+    padding: 15px 0px 15px 30px;
+    background-color: rgb(182, 180, 180);
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 0.7s;
+}
+
+.left-nav>li>a:hover {
+    background-color: rgb(145, 136, 136);
+}
+
+
+.h2-content {
+    grid-column: 1 / 5;
+    height: 22px;
+    width: 150px;
+}
+
+.c2>img {
+    width: 100%;
+    align-self: center;
+    max-height: 130px;
+}
+
+.grid-button {
+    padding: 6px 12px;
+    background-color: #110c0c;
+    float: right;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+    padding: 10px 0px;
+}
+
+.gallery-table {
+    display: table;
+    width: 100%;
+}
+
+.gallery-table thead {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #222222;
+    color: white;
+}
+
+.gallery-table td {
+    border: 1px solid #050505;
+}
+
+.gallery-table>tbody>tr>td>img {
+    max-width: 150px;
+}
+
+.buy-now {
+    padding: 7px 16px;
+    background-color: green;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    margin: auto;
+    display: block;
+}
+
+.buy-now:hover {
+    background-color: #9cb69c;
+}
+
+.c3>img {
+    width: 100%;
+    align-self: center;
+    height: 130px;
+    width: 130px;
+}
